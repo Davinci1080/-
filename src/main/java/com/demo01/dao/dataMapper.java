@@ -20,7 +20,7 @@ public interface dataMapper {
     //添加功能
     void addData(data da);
 
-    //修改功能
+    //修改功能这里我没有使用mybatis自带的修改功能
     void upfatedata(data da);
 
     //批量删除

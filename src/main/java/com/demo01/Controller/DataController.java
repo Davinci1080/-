@@ -26,6 +26,7 @@ public class DataController {
     @RequestMapping("datasomedata")
     public ResultVo dete(int[] ids){
         for (int i = 0; i<ids.length;i++) {
+            System.out.println("这是重新提交的");
             return dataservice.deletesome(i);
         }
         return null;
